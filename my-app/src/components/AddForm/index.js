@@ -5,6 +5,7 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+import TextField from "@mui/material/TextField"
 
 export default function AlertDialog() {
   const [open, setOpen] = React.useState(false);
@@ -20,7 +21,7 @@ export default function AlertDialog() {
   return (
     <div>
       <Button variant="outlined" onClick={handleClickOpen} color="inherit">
-        Open alert dialog
+        Add task
       </Button>
       <Dialog
         open={open}
@@ -29,18 +30,26 @@ export default function AlertDialog() {
         aria-describedby="alert-dialog-description"
       >
         <DialogTitle id="alert-dialog-title">
-          {"Use Google's location service?"}
+          {"Tarea #1"}
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            Let Google help apps determine location. This means sending
-            anonymous location data to Google, even when no apps are running.
+            You can type here the details of the task.
           </DialogContentText>
+          <TextField
+            autoFocus
+            margin="dense"
+            id="description"
+            label="Description"
+            type="text"
+            fullWidth
+            variant="standard"
+          />
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Disagree</Button>
+          <Button onClick={handleClose}>Cancel</Button>
           <Button onClick={handleClose} autoFocus>
-            Agree
+            Add
           </Button>
         </DialogActions>
       </Dialog>
