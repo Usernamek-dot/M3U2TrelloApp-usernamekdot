@@ -1,12 +1,12 @@
 import "./App.css";
 import AppBar from "./components/AppBar";
-import CardTemplate from "./components/Card";
+import CardTemplate2 from "./components/Board";
 
 export default function App() {
   return (
     <>
       <AppBar />
-      <CardTemplate />
+      <CardTemplate2 />
     </>
   );
 }

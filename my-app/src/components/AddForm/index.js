@@ -1,11 +1,13 @@
 import * as React from "react";
-import Button from "@mui/material/Button";
-import Dialog from "@mui/material/Dialog";
-import DialogActions from "@mui/material/DialogActions";
-import DialogContent from "@mui/material/DialogContent";
-import DialogContentText from "@mui/material/DialogContentText";
-import DialogTitle from "@mui/material/DialogTitle";
-import TextField from "@mui/material/TextField"
+import {
+  Button,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogContentText,
+  DialogTitle,
+  TextField,
+} from "@mui/material";
 
 export default function AlertDialog() {
   const [open, setOpen] = React.useState(false);
@@ -29,9 +31,7 @@ export default function AlertDialog() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">
-          {"Tarea #1"}
-        </DialogTitle>
+        <DialogTitle id="alert-dialog-title">{"Tarea #1"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             You can type here the details of the task.
