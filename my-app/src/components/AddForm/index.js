@@ -31,7 +31,7 @@ export default function AlertDialog() {
         aria-labelledby="alert-dialog-title"
         aria-describedby="alert-dialog-description"
       >
-        <DialogTitle id="alert-dialog-title">{"Tarea #1"}</DialogTitle>
+        <DialogTitle id="alert-dialog-title">{"Task #1"}</DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
             You can type here the details of the task.
