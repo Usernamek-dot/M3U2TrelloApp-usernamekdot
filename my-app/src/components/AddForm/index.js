@@ -45,6 +45,24 @@ export default function AlertDialog() {
             fullWidth
             variant="standard"
           />
+          <TextField
+            autoFocus
+            margin="dense"
+            id="asignee"
+            label="Asignee to"
+            type="text"
+            fullWidth
+            variant="standard"
+          />
+          <TextField
+            autoFocus
+            margin="dense"
+            id="dueDate"
+            label="Due date"
+            type="text"
+            fullWidth
+            variant="standard"
+          />
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClose}>Cancel</Button>
