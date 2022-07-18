@@ -9,7 +9,7 @@ import {
   TextField,
 } from "@mui/material";
 
-export default function AlertDialog() {
+export default function AddFormDialog() {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {

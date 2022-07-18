@@ -1,13 +1,6 @@
 import { Grid, Card, CardHeader, CardContent, Divider } from "@mui/material";
 import DraggableComponent from "../Draggable";
-import PendingActionsOutlinedIcon from '@mui/icons-material/PendingActionsOutlined';
-import PendingOutlinedIcon from '@mui/icons-material/PendingOutlined';
-import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
-// import {
-//   PendingOutlinedIcon,
-//   DoneOutlineOutlinedIcon,
-//   PendingActionsOutlinedIcon,
-// } from "@mui/icons-material";
+import { PendingActionsOutlinedIcon, PendingOutlinedIcon, CheckCircleOutlineOutlinedIcon } from '@mui/icons-material';
 
 export default function CardComponent() {
   return (

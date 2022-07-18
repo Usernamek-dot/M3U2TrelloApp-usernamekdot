@@ -8,7 +8,7 @@ import {
   CssBaseline,
 } from "@mui/material";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
-import AlertDialog from "../AddForm";
+import AddFormDialog from "../AddForm";
 
 export default function ButtonAppBar() {
   return (
@@ -29,7 +29,7 @@ export default function ButtonAppBar() {
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               Trello Demo
             </Typography>
-            <AlertDialog />
+            <AddFormDialog />
           </Toolbar>
         </AppBar>
       </Box>

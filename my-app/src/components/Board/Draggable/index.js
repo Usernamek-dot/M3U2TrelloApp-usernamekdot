@@ -15,7 +15,7 @@ export default function DraggableComponent() {
           }}
         >
           <CardContent>
-            <Typography>hELL WORLD</Typography>
+            <Typography>Task</Typography>
           </CardContent>
         </Card>
       </div>
